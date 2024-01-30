@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Web developer in Vancouver, WA.">
+            <title>Cascadia Digital Services</title>
+            <link rel="icon" type="image/x-icon" href="Assets/favicon.ico">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://use.typekit.net/fgv7ohc.css">
+            <link rel="stylesheet" href="Style.css">
+            <link rel="stylesheet" href="print.css" media="print">
+      </head>
+      <body>
+            <header>
+                  <div class="container">
+                        <nav class="mainNav">
+                              <div id="logo">
+                                    <a href="index.html"><img src="Assets/Cascadia logo.png" alt="Cascadia digital services logo"></a>
+                              </div>
+                              <ul>
+                                    <li><a href="#resume">Resume</a></li>
+                                    <li><a href="#portfolio">Portfolio</a></li>
+                              </ul>
+                              <div id="headerButton">
+                                    <a href="#contact" id="contactButton">Contact</a>
+                              </div>
+                        </nav>
+                  </div>
+            </header>
+            <div id="siteDecoration">
+
+            </div>
+            <section id="hero">
+                  <div class="container">
+                        <div id="hero-grid">
+                              <div id="callToAction">
+                                    <div id="siteIntro">
+                                           <img src="Assets/profile picture.png" alt="">
+                                           <h1>Hi, I'm Nathan. <br> I make websites and web apps</h1>
+                                    </div>
+                              </div>
+                              <div id="heroImages-flexbox">
+                                    <div class="heroImages-item">
+                                          <img src="Assets/Website icon.png" alt="">
+                                          <strong>UI/UX Design</strong>
+                                    </div>
+                                    <div class="heroImages-item">
+                                          <img src="Assets/Front end development 2.png" alt="">
+                                          <strong>Front End Development</strong>
+                                    </div>
+                                    <div class="heroImages-item">
+                                          <img src="Assets/Back end development.png" alt="">
+                                          <strong>Back End Development</strong>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <main>
+                  <section id="resume">
+                        <h2>Resume</h2>
+                        <div class="container">
+                              <div id="professionalSummary">
+                                    <h3>Professional Summary</h3><br>
+                                    <p>
+                                          I am a 25 year old tech enthusiast. Self taught in most areas. Much of my early twenties was spent in retail and construction, to make some money while I studied and figured out what direction I wanted in my career. Now I am breaking into tech with any opportunities that I can explore. <br>
+                                          I don't have a lot of work history in web development yet, but I am determined to gain knowledge and experience. To that end I am actively working on web developer training programs. And I am working on my portfolio.
+                                          I have several projects that I have done. With several others in the works. Not every project I work on is for a real client. Sometimes I do my own thing; for a course I am taking or just out of interest. <br>
+                                          Some of the skills in my resume are things I am in the middle of learning the basics of. Such as PHP, BootStrap, and react. I am more familiar with HTML/CSS/JavaScript. And I work everyday to strengthen my knowledge of both front and back end web development. 
+                                          I would not call myself a full stack developer until I have more work experience. But I have exposure to both domains. <br><br>
+                                          <span class="highlight">Based in Vancouver Wa.</span><span class="highlight">Preference to remote or hybrid work.</span><span class="highlight">Open to job offers.</span>
+                                    </p>
+                              </div>
+                              <div class="listLabel">
+                                    <h3>Languages</h3>
+                              </div>
+                              <div id="languages-flexBox">
+                                    <div class="languages-module">
+                                          <img src="Assets/HTML 5 logo.png" alt="">
+                                          <strong></strong>
+                                    </div>
+                                    <div class="languages-module">
+                                          <img src="Assets/CSS 3 icon.png" alt="">
+                                          <strong></strong>
+                                    </div>
+                                    <div class="languages-module">
+                                          <img src="Assets/JavaScript logo.png" alt="">
+                                          <strong></strong>
+                                    </div>
+                                    <div class="languages-module">
+                                          <img src="Assets/PHP logo.png" alt="">
+                                          <strong></strong>
+                                    </div>
+                              </div>
+                              <div>
+                                    <h3 class="listLabel">Frameworks/Libraries</h3>
+                                    <ul class="resumeList">
+                                          <li>Bootstrap</li>
+                                          <li>React</li>
+                                    </ul>
+                              </div>
+                              <div>
+                                    <h3 class="listLabel">CMS</h3>
+                                    <ul class="resumeList">
+                                          <li>Wordpress</li>
+                                    </ul>
+                              </div>
+                              <div class="socialNavBar">
+                                    <a href="https://github.com/DaedalusNTW" target="_blank"><img src="Assets/GitHub.png" alt=""></a>
+                                    <a href="https://www.behance.net/nathaniwillett" target="_blank"><img src="Assets/Behance icon.png" alt=""></a>
+                                    <a href="https://www.linkedin.com/in/nathaniel-willett/" target="_blank"><img src="Assets/Linkedin.png" alt=""></a>
+                              </div>
+                        </div>
+                  </section>
+                  <!-- <section id="portfolio">
+                        <div class="container">
+                              <h2>Past Work</h2>
+                              <div id="portfolio-grid">
+                                    <div class="portfolio-item">
+                                          
+                                    </div>
+                                    <div class="portfolio-item">
+
+                                    </div>
+                                    <div class="portfolio-item">
+
+                                    </div>
+                              </div>
+                        </div>
+                  </section> -->
+                  <section id="contact">
+                        <div class="container">
+                              <div id="contact-flexBox">
+                                    <form action="Form processor.php" method="post" name="contactForm" onsubmit="return antiSpam();">
+                                          <label for="userName">Name<input type="text" name="userName" id="userName" required></label>
+                                          <label for="userCompany">Company<input type="text" name="userCompany" id="userCompany" required></label>
+                                          <label for="userEmail">Email<input type="text" name="userEmail" id="userEmail" required></label>
+                                          <label for="userPhone">Phone<input type="number" name="userPhone" id="userPhone" placeholder="Optional"></label><br>
+                                          <input type="checkbox" name="botTrap" id="botTrap" style="display: none;">
+                                          <textarea name="userMessage" id="userMessage" cols="30" rows="10"></textarea> <br>
+                                          <div id="formButtons">
+                                                <button type="submit">Send</button> 
+                                          </div>
+                                    </form>
+                                    <!-- <iframe name = "formProcessor" id="formProcessor" frameborder="0" style="display: none;" sandbox="allow-forms"></iframe> -->
+                                    <div class="callToAction-card">
+                                          <p>If you don't prefer regular email for recruiting or business inquiries. You can talk to me through the following platforms:</p>
+                                          <a href="https://www.linkedin.com/in/nathaniel-willett/" target="_blank">Linkedin</a>
+                                          <a href="https://www.upwork.com/freelancers/~018933d5efeae093bd" target="_blank">Upwork</a>
+                                    </div>
+                              </div>
+                        </div>
+                  </section>
+            </main>
+            <footer>
+      
+            </footer>
+            <script src="Form validation.js"></script>
+      </body>
+</html>
