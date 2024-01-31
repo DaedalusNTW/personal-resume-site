@@ -76,32 +76,26 @@ header #logo img{
       margin: 5vh auto 0vw auto;
       min-height: 80vh;
       }
-
 #hero-grid{
       display: grid;
-      grid-template-columns: 2fr 1fr;
+      grid-template-columns: 1fr 1fr;
       gap: 7vw;
       color: #000000;}
 #siteIntro{
-      display: flex;}
+      width: 100%;
+      float: left;
+      }
+#siteIntro img{
+      width: 100%;
+}
 #callToAction{
       display: flex;
       flex-direction: column;
-      align-items: center;
-      color: #000000;
       /* background-color: #ffffff; */
-      border-radius: 16px;}
+      }
 #callToAction h1{
       font-size: 4em;
       font-weight:400;}
-#callToAction img{
-      width: 33%;
-      margin: 0vw 2vw 0vw 0vw;}
-.siteCover{
-      height: 100%;
-      padding: 5vw;
-      background-image: url(Assets/Cover\ 3.png);
-      background-position: center;}
 .heroImages-item{
       text-align: center;
       padding: 3vw;
@@ -136,7 +130,6 @@ header #logo img{
       padding: 2.5vw 2.5vw 2.5vw 0vw;}
 .listLabel{
       display: block;
-      width: 12vw;
       background-color: #e5e5e5;
       border-radius: 15px;
       padding: 1vw 2vw 1vw 2vw;
@@ -196,39 +189,43 @@ ul.resumeList{
       top: 60px;
       color: #ffffff;
       border: 3px solid #ffffff;
-      padding: .5vw 1.5vw .5vw 1.5vw;
+      padding: 20px 40px 20px 40px;
       margin: 1vw auto 1vw auto;}
-#contact-flexBox{
+.callToAction-card a:hover{
+      background-color: #ffffff;
+      color: #000000;
+}
+#contact-grid{
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto;
 }
-#contact-flexBox input{
+#contact-grid input{
       display: block;
       width: 80%;
-      padding: .8vw .8vw .8vw 0.2vw;
+      padding: 1.5vh 1.5vh 1.5vh 0.5vh;
       border: 1px solid #003E61;
       border-radius: 5px;
 }
-#contact-flexBox input:focus{
+#contact-grid input:focus{
       outline: none;
 }
-#contact-flexBox textarea{
+#contact-grid textarea{
       display: block;
       width: 80%;
       padding: .8vw .8vw .8vw 0.2vw;
       border: 1px solid #003E61;
       border-radius: 5px;
 }
-#contact-flexBox button{
+#contact-grid button{
       width: 33%;
-      padding: .8vw;
+      padding: 20px 40px 20px 40px;
       background-color: #003E61;
       color: #ffffff;
       font-size: 1.2em;
       border: none;
 }
-#contact-flexBox button:hover{
+#contact-grid button:hover{
       background-color: darkgreen;
       cursor:pointer;
 }
@@ -243,15 +240,3 @@ ul.resumeList{
  
 }
 
-
-
-@media screen and (max-width:1000px){
-      .container{
-            width: 100vw;
-      }
-      #hero-grid{
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 7vw;
-            color: #000000;}
-}

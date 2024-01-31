@@ -11,6 +11,7 @@
             <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="https://use.typekit.net/fgv7ohc.css">
             <link rel="stylesheet" href="Style.css">
+            <link rel="stylesheet" href="Mobile.css">
             <link rel="stylesheet" href="print.css" media="print">
       </head>
       <body>
@@ -20,19 +21,18 @@
                               <div id="logo">
                                     <a href="index.html"><img src="Assets/Cascadia logo.png" alt="Cascadia digital services logo"></a>
                               </div>
-                              <ul>
-                                    <li><a href="#resume">Resume</a></li>
-                                    <li><a href="#portfolio">Portfolio</a></li>
-                              </ul>
-                              <div id="headerButton">
-                                    <a href="#contact" id="contactButton">Contact</a>
+                              <div class="desktopElement">
+                                    <ul>
+                                          <li><a href="#resume">Resume</a></li>
+                                          <li><a href="#portfolio">Portfolio</a></li>
+                                    </ul>
+                                    <div id="headerButton">
+                                          <a href="#contact" id="contactButton">Contact</a>
+                                    </div>
                               </div>
                         </nav>
                   </div>
             </header>
-            <div id="siteDecoration">
-
-            </div>
             <section id="hero">
                   <div class="container">
                         <div id="hero-grid">
@@ -115,12 +115,12 @@
                               </div>
                         </div>
                   </section>
-                  <!-- <section id="portfolio">
+                  <section id="portfolio">
                         <div class="container">
                               <h2>Past Work</h2>
                               <div id="portfolio-grid">
                                     <div class="portfolio-item">
-                                          
+                                          <strong>This section is under construction</strong>
                                     </div>
                                     <div class="portfolio-item">
 
@@ -130,11 +130,11 @@
                                     </div>
                               </div>
                         </div>
-                  </section> -->
+                  </section>
                   <section id="contact">
                         <div class="container">
-                              <div id="contact-flexBox">
-                                    <form action="Form processor.php" method="post" name="contactForm" onsubmit="return antiSpam();">
+                              <div id="contact-grid">
+                                    <form action="Form processor.php" method="post" name="contactForm" onsubmit="return antiSpam();" class="desktopElement">
                                           <label for="userName">Name<input type="text" name="userName" id="userName" required></label>
                                           <label for="userCompany">Company<input type="text" name="userCompany" id="userCompany" required></label>
                                           <label for="userEmail">Email<input type="text" name="userEmail" id="userEmail" required></label>

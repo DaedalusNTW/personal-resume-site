@@ -20,7 +20,7 @@
       
       $to = "daedalusntw@gmail.com";
       $subject = "CDS website";
-      $intro = "$name has a question his/her email address is $email The phone number is $phone";
+      $intro = "$name has a question his/her email is $email phone number is $phone";
 
       mail($to, $name, $message, $intro);
       ?>
