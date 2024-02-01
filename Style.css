@@ -16,12 +16,12 @@ h1, h2, h3, h4, h5, h6{
 strong{
       font-family: scandia;}
 label{
-      font-family: Lexend, Arial, Helvetica, sans-serif;
+      font-family: Scandia, Arial, Helvetica, sans-serif;
 }
 p{
       font-family: Lexend, Arial, Helvetica, sans-serif;}
 li{
-      font-family: Lexend, Arial, Helvetica, sans-serif;}
+      font-family: Scandia, Arial, Helvetica, sans-serif;}
 a{
       font-family: scandia;
       color: #003E61;
@@ -36,39 +36,37 @@ a:active{
       padding: 10px;
       margin: 15px 15px 15px 0px;
       background-color:rgba(255, 127, 80, 0.432);
-      border-radius: 25px;
-      
-}
+      border-radius: 25px;}
 
 
 header{
-      padding: 1.5vh 0vh 1.5vh 0vh;
       background-color: #ffffff;
-      }
-header #logo img{
-      width: 16vw;}
-.mainNav{
+      padding: 2vh;}
+.desktopNav{
       display: flex;
       justify-content: space-between;
       align-items: center;}
-.mainNav ul{
-      display: flex;
-      list-style: none;}
-.mainNav li{
-      padding: 0vw 1vw 0vw 1vw;}
-.mainNav li a:hover{
-      background-color: #003E61;;
-      border-radius: 16px;
-      color: #ffffff;
-      padding: .5vw;}
-#contactButton{
-      color: #003E61;
+.desktopNav img{
+      width: 350px;}
+.desktopNav ul{
+      list-style: none;
+      display: flex;}
+.desktopNav li{
+      margin: 0px 15px 0px 15px;
+      }
+.desktopNav a:hover{
+      font-weight: bolder;}
+.navButton{
       border: 3px solid #003E61;
-      border-radius: 16px;
-      padding: .5vw 1vw .5vw 1vw;}
-#contactButton:hover{
+      padding: 15px 25px 15px 25px;
+      border-radius: 16px;}
+.navButton:hover{
       background-color: #003E61;
       color: #ffffff;}
+.mobileNav{
+      display: none;}
+
+
 
 
 
