@@ -163,6 +163,13 @@ ul.resumeList{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 33vh;
+      gap: 5vw;
+}
+#portfolio-grid img{
+      width: 100%;
+}
+.portfolio-item{
+      
 }
 .portfolio-item:nth-child(1){
       border: 3px dashed #003E61;
