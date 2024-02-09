@@ -36,9 +36,9 @@
                                     <img src="Assets/Cascadia logo.png" alt="Cascadia digital Services logo">
                               </div>
                               <ul class="mobileNavbar">
-                                    <li><a href="#resume">Resume</a></li>
-                                    <li><a href="#portfolio">Portfolio</a></li>
-                                    <li><a href="mailto:cascadiadigital.services">Contact</a></li>
+                                    <li><a href="#resume"><img src="Assets/Resume icon.png" alt=""> Resume</a></li>
+                                    <li><a href="#portfolio"><img src="Assets/Portfolio.png" alt="">Portfolio</a></li>
+                                    <li><a href="mailto:cascadiadigital.services"><img src="Assets/Contact icon.png" alt="">Contact</a></li>
                               </ul>
                         </nav>
                   </div>
@@ -48,15 +48,15 @@
                         <div id="hero-grid">
                               <div id="callToAction">
                                     <div id="siteIntro">
-                                           <img src="Assets/profile picture.png" alt="">
+                                           <img id="profilePicture" src="Assets/profile picture.png" alt="">
                                            <h1>Hi, I'm Nathan. <br> I make websites and web apps</h1>
                                     </div>
                               </div>
                               <div id="heroImages-flexbox">
-                                    <div class="heroImages-item">
+                                    <!-- <div class="heroImages-item">
                                           <img src="Assets/Website icon.png" alt="">
                                           <strong>UI/UX Design</strong>
-                                    </div>
+                                    </div> -->
                                     <div class="heroImages-item">
                                           <img src="Assets/Front end development 2.png" alt="">
                                           <strong>Front End Development</strong>
@@ -81,13 +81,13 @@
                                           I have several projects that I have done. With several others in the works. Not every project I work on is for a real client. Sometimes I do my own thing; for a course I am taking or just out of interest. <br>
                                           Some of the skills in my resume are things I am in the middle of learning the basics of. Such as PHP, BootStrap, and react. I am more familiar with HTML/CSS/JavaScript. And I work everyday to strengthen my knowledge of both front and back end web development. 
                                           I would not call myself a full stack developer until I have more work experience. But I have exposure to both domains. <br><br>
-                                          <span class="highlight">Based in Vancouver Wa.</span><span class="highlight">Preference to remote or hybrid work.</span><span class="highlight">Open to job offers.</span>
+                                          <span class="highlight desktopElement">Based in Vancouver Wa.</span><span class="highlight desktopElement">Preference to remote or hybrid work.</span><span class="highlight desktopElement">Open to job offers.</span>
                                     </p>
                               </div>
                               <div class="listLabel">
                                     <h3>Languages</h3>
                               </div>
-                              <div id="languages-flexBox">
+                              <div id="languages-grid">
                                     <div class="languages-module">
                                           <img src="Assets/HTML 5 logo.png" alt="">
                                           <strong></strong>
@@ -118,25 +118,27 @@
                                           <li>Wordpress</li>
                                     </ul>
                               </div>
-                              <div class="socialNavBar">
-                                    <a href="https://github.com/DaedalusNTW" target="_blank"><img src="Assets/GitHub.png" alt=""></a>
-                                    <a href="https://www.behance.net/nathaniwillett" target="_blank"><img src="Assets/Behance icon.png" alt=""></a>
-                                    <a href="https://www.linkedin.com/in/nathaniel-willett/" target="_blank"><img src="Assets/Linkedin.png" alt=""></a>
-                              </div>
+                              <button id="printButton" onclick="window.print()">Print Resume</button>
                         </div>
                   </section>
                   <section id="portfolio">
                         <div class="container">
                               <h2>Past Work</h2>
                               <div id="portfolio-grid">
-                                    <div class="portfolio-item">
+                                    <div class="portfolio-item desktopElement">
                                           <strong>New projects coming soon!</strong>
                                     </div>
                                     <div class="portfolio-item">
-                                          <img src="Assets/All Phase logo.png" alt="">
-                                          <strong></strong>
-                                          <p>A local construction company that does residential housing. I did their website in wordpress and I am currently working on reworking their logo.</p>
-                                          <a href="https://getallphase.com/" target="_blank">Website</a>
+                                          <div class="portfolio-item-content">
+                                                <div class="portfoli-item-cover">
+                                                      <img src="Assets/All Phase logo.png" alt="">
+                                                </div>
+                                                <div class="portfolio-item-description">
+                                                      <strong></strong>
+                                                      <p>A local construction company that does residential housing. I did their website in wordpress and I am currently reworking their logo.</p> <br>
+                                                      <a href="https://getallphase.com/" target="_blank">Website</a>
+                                                </div>
+                                          </div>
                                     </div>
                                     <div class="portfolio-item">
 

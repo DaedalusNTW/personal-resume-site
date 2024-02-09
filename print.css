@@ -1,0 +1,18 @@
+body{
+      font-size: 1em;
+}
+header{
+      display: none;
+}
+#hero{
+      display: none;
+}
+#portfolio{
+      display: none;
+}
+#contact{
+      display: none;
+}
+#printButton{
+      display: none;
+}

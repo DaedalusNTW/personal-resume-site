@@ -2,6 +2,9 @@
       .container{
             width: 90%;
       }
+      #resume{
+            width: 90%;
+      }
       #contact-grid{
             grid-template-columns: 1fr;
       }
@@ -12,7 +15,7 @@
             color: #ffffff;
             text-align: center;}
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:600px){ /*Phones*/
       .desktopElement{ /*hides certain elements on mobile devices*/ 
             display: none;
       }
@@ -25,6 +28,9 @@
       .mobileNav img{
             width: 80vw;
       }
+      .mobileNavbar img{
+            width: 10vw;
+      }
       .mobileNavbar{
             display: flex;
             position: fixed;
@@ -35,6 +41,7 @@
             justify-content: center;
             background-color: #ffffff;
             z-index: 10;
+            text-align: center;
       }
       ul.mobileNavbar{
             list-style: none;
@@ -54,17 +61,46 @@
       #siteIntro{
             text-align: center;
           }
+      #callToAction h1{
+            font-size: 2em;
+            padding: 3vw;
+      }
       .heroImages-item:nth-child(2){
-      
             margin: 0px;
       }
       .heroImages-item{
             border-radius: 0px;
+            padding: 5vw;
 
       }
+      .heroImages-item img{
+            width: 22vw;
+
+      }
+      section{
+            width: 100%;
+      }
       #resume{
-            background-color: #eeeeee;
-            width: 90%;
+            width:100%;
+            background-color: #EEEEEE;
+      }
+      #resume h2{
+            width: 33vw;
+            text-align: center;
+            padding: 3vw;
+      }
+      .listLabel{
+            padding: 5vw;
+      }
+      #languages-grid{
+            grid-template-columns: 1fr 1fr;
+      }
+      .languages-module img{
+            width: 50%;
+            padding: 5vw;
+      }
+      #portfolio-grid{
+            grid-template-columns: 1fr;
       }
       
 }
