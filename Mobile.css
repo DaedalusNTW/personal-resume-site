@@ -15,7 +15,7 @@
             color: #ffffff;
             text-align: center;}
 }
-@media screen and (max-width:600px){ /*Phones*/
+@media screen and (max-width:700px){
       .desktopElement{ /*hides certain elements on mobile devices*/ 
             display: none;
       }
@@ -24,12 +24,15 @@
       }
       .mobileNav{
             display: flex;
+            
       }
       .mobileNav img{
             width: 80vw;
       }
       .mobileNavbar img{
             width: 10vw;
+
+            
       }
       .mobileNavbar{
             display: flex;
@@ -38,7 +41,7 @@
             left: 0px;
             width: 100%;
             padding: 1.5vh 0vh 1.5vh 0vh;
-            justify-content: center;
+            justify-content: space-around;
             background-color: #ffffff;
             z-index: 10;
             text-align: center;
